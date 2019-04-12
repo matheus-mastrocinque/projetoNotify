@@ -1,7 +1,48 @@
+
+.botoes{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.hand{
+    background-image: url(image/hand.png) no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    
+}
+
+.posicaoMao{
+    width: 370px;
+    margin-right: 150px;
+    
+} 
+
+article{
+    background-color: lime;
+}
+
 body{
     display: grid;
-    grid-template-areas: 'header header header header' 'section section section section' 'article article article article' 'footer footer footer footer';
-    grid-template-rows: 35vh 15vh 20vh 30vh; 
+    grid-template-areas: 'header' 'section' 'article' 'footer';
+    grid-template-rows: 38vw 6vw 15vw 20vw 30vw;
+    grid-template-columns: 100vw;
+    justify-content: center;
+}
+
+header{
+    border-top: green;
+    background-image: url(image/banner.png);
+    background-size: cover;
+}
+
+footer{
+    background-color: blue;
+}
+
+section{
+    background-color: darkslategrey;
 }
 
 
